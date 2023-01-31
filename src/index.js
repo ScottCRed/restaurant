@@ -1,3 +1,2 @@
-console.log('working again')
-alert('hello')
+console.log('working again');
 
