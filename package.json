@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+   "start": "webpack serve --open",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ScottCRed/restaurant/issues"
   },
-  "homepage": "https://github.com/ScottCRed/restaurant#readme"
+  "homepage": "https://github.com/ScottCRed/restaurant#readme",
+  "devDependencies": {
+    "webpack-dev-server": "^4.11.1"
+  }
 }
