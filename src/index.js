@@ -1,14 +1,12 @@
-import _ from "lodash";
+import { testFunc } from "./mainPage";
 
-function component() {
-    const element = document.createElement('div');
-  
-    // Lodash, currently included via a script, is required for this line to work
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  
-    return element;
-  }
-  
-  document.body.appendChild(component());
+const test = document.querySelector('#container');
+const testDiv = document.createElement('div');
+testDiv.classList.add('test');
+testDiv.textContent = "This is a test";
 
-  console.log('AAAAAAAAAAAAAH')
+test.appendChild(testDiv);
+
+testFunc();
+
+console.log('AAAAAAAAAAAAAH')
