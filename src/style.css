@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: auto;
+    background-color: blue;
+}
+
+.background {
+    height: 800px;
+    width: auto;
+    background-color: blueviolet;
+}
+
+.footer {
+    height: 100px;
+    width: auto;
+    background-color: rgb(43, 214, 226);
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.page {
+    height: 750px;
+    width: 500px;
+    background-color: rgb(0, 0, 0, 0.5);
+    margin-top: 25px;
+}

@@ -1,12 +1,6 @@
-import { testFunc } from "./mainPage";
+import { mainPage } from "./mainPage";
+import './style.css'
 
-const test = document.querySelector('#container');
-const testDiv = document.createElement('div');
-testDiv.classList.add('test');
-testDiv.textContent = "This is a test";
-
-test.appendChild(testDiv);
-
-testFunc();
+mainPage();
 
 console.log('AAAAAAAAAAAAAH')

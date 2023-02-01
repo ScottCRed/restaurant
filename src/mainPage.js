@@ -1,7 +1,10 @@
-export function testFunc () {
-    const test = document.querySelector('.test');
-    const testButton = document.createElement('button');
-    testButton.textContent = "push me bih";
-    test.appendChild(testButton);
-    testButton.addEventListener('click', () => console.log('i dooont beleive it'));
+import './style.css'
+
+export function mainPage () {
+    const container = document.querySelector('#container');
+    const backing = document.createElement('div');
+    backing.classList.add('page');
+    backing.textContent = "push me bih";
+    container.appendChild(backing);
+   
 }
