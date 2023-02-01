@@ -27,6 +27,4 @@ export function mainPage () {
     
     container.appendChild(backing);
    
-    console.log('buttybutyy')
-   
 }

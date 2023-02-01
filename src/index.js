@@ -5,7 +5,6 @@ import './style.css'
 
 function clear() {
     document.getElementById('container').innerHTML = '';
-    console.log('supposed to work')
 }
 
 mainPage();
