@@ -6,5 +6,6 @@ export function mainPage () {
     backing.classList.add('page');
     backing.textContent = "push me bih";
     container.appendChild(backing);
+    console.log('buttybutyy')
    
 }
