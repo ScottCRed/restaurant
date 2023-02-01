@@ -33,8 +33,18 @@ body {
 }
 
 .page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     height: 750px;
     width: 500px;
     background-color: rgb(0, 0, 0, 0.5);
     margin-top: 25px;
+    padding: 0px 30px;
+}
+
+img {
+    height: 400px;
+    width: 280px;
 }
